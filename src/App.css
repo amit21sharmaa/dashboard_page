@@ -1,0 +1,9 @@
+.App {
+  display: inline-flex;
+}
+.sidebarApp{
+  width: 8% !important;
+}
+.homePageApp{
+  width: 96vw !important;
+}

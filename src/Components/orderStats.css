@@ -1,0 +1,30 @@
+@media only screen and (min-width: 2100px) {
+    .ordercards{
+        max-width: 15%;
+    }
+    .orderStats{
+        display:inline-flex;
+        justify-content:space-evenly;
+    }
+}
+@media only screen and (max-width: 2099px) and (min-width: 650px) {
+    .ordercards{
+        max-width: 20%;
+    }
+    .orderStats{
+        display:inline-flex;
+        justify-content:space-evenly;
+    }
+}
+
+@media only screen and (max-width: 649px) {
+    .ordercards{
+        max-width: 90%;
+    }
+    .orderStats{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        gap:10px;
+    }
+}

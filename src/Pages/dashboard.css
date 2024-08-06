@@ -1,0 +1,32 @@
+@media only screen and (min-width: 770px) {
+    .dashboardContainer{
+        display: grid;
+        grid-template-columns: 64% 35%;
+        grid-template-rows: 16% 33% 50%;
+        gap:10px;
+        padding:10px
+    }
+    
+    
+    .container{
+        width: 100%;
+        background-color:black;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .dashboardContainer{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding:10px;
+        gap: 10px;
+    }
+    
+    
+    .container{
+        width: 100%;
+        background-color:black;
+    }
+}
+  

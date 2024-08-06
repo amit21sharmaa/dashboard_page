@@ -1,0 +1,19 @@
+@media only screen and (min-width: 650px) {
+    .orderStatusIcon{
+        font-size: 60px;
+    }
+    .orderStatusIcon{
+        width:'30%';
+    }
+
+}
+
+@media only screen and (max-width: 649px) {
+    .orderStatusIcon{
+        font-size: 60px;
+    }
+    .orderStatusIcon{
+        width:'30%';
+    }
+
+}
